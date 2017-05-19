@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+<title>Molika Sinha</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" type="image/png" href="p2.png">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+
+    line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url(IMG_1287-2-1.jpg);
+    min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url(13217597_10153850167129580_8380204232404918427_o.jpg);
+    min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url(12961138_10153781787414580_2541060991432915633_o.jpg);
+    min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top" >
+  <div class="w3-bar" id="myNavbar" style="background-color: rgba(18,0,5,0.7); color: rgba(255,255,255,0.7);">
+    <a class="w3-bar-item w3-hover-black w3-hide-medium w3-hide-large w3-right"  href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="index.html" class="w3-bar-item w3-button w3-hover-black " style="background-color: rgba(18,0,5,0.05); color: rgba(255,255,255,0.7);"><i class="fa fa-home"></i> HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small w3-hover-black " style="background-color: rgba(18,0,5,0.05); color: rgba(255,255,255,0.7);"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small w3-hover-black " style="background-color: rgba(18,0,5,0.05); color: rgba(255,255,255,0.7);"><i class="fa fa-th"></i> PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-black " style="background-color: rgba(18,0,5,0.05); color: rgba(255,255,255,0.7);"><i class="fa fa-envelope"></i> CONTACT</a>
+
+  </div>
+
+  <!-- Navbar on small screens -->
+
+  <div id="navDemo" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium " >
+    <a href="#about" class="w3-bar-item w3-button w3-hover-black " style="background-color: rgba(18,0,5,0.5); color: rgba(255,255,255,0.7);" onclick="toggleFunction()">ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hover-black"  style="background-color: rgba(18,0,5,0.5); color: rgba(255,255,255,0.7);" onclick="toggleFunction()">PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hover-black" style="background-color: rgba(18,0,5,0.5); color: rgba(255,255,255,0.7);" onclick="toggleFunction()">CONTACT</a>
+
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;" >
+    <span class="w3-center w3-padding-large w3-xlarge w3-text-white w3-wide w3-animate-opacity" style="background-color: rgba(18,0,5,0.9);">Molika <span class="w3-hide-small">Sinha</span> </span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div style="background-color: rgb(58,0,25);"  class="w3-text-white">
+<div class="w3-content w3-container w3-padding-64" id="about" style="background-color: rgb(58,0,25);">
+  <h1 class="w3-center"> Howdy! </h1>
+  <p class="w3-center"><em>“You can, you should, and if you’re brave enough to start, you will.” – Stephen King</em></p>
+  <p style="text-align: justify;">I am presently a Master’s student at Texas A&M University, College Station pursuing Professional Program in Biotechnology.
+    My research interests lie in genomics, bioinformatics, bionanotechnology and biosensors. Though my interests lie in human and animal research, all of my work till date has been associated with plants. Currently,
+    I am conducting my research in the Beasley Lab at the Department of Soil and Crop Sciences at Texas A&M University. My advisor-cum-mentor is Dr. David M Stelly, who is the co-director of the AgriGenomics Laboratory.
+    My latest research lies in applying SNP genotyping in utilization and mapping of diploid germplasm(RILs of G. arboreum and G.herbaceum) in cotton.
+    Another feather to my hat comes with my internship at MD Anderson Cancer Center in the Genomics Department under the supervisor, Dr. Christopher Bristow, the director of the Computational Biology Laboratory.
+    I believe that for a person to reach any height of success, it involves an equal congregation of knowledge and managerial skills. To balance both the skills in me, I keep myself involved in extracurricular activities.
+    I am the Vice President of Finance at the Graduate and Professional Student Council for the academic year 2017-18.</p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <p><b><i class="fa fa-user w3-margin-right"></i>A Dreamer. An Achiever.</b></p><br>
+      <img src="/w3images/avatar_hat.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large" >
+      <p style="text-align: justify;">I hail from India, the land of mystery and diversity. I completed my school and undergraduation from my home country. I always had an inclination towards Computer sciences, but Biological Sciences also fascinated me. This led me to pursue Computer Science during my high school, Biological sciences during senior secondary school, and finally Biotechnology during undergraduation which was a perfect blend of both courses.  If I had to define myself in one word, I would choose the word - Learner! I believe that it is the urge of learning that can take a man to any pinnacle. This outlook of mine helped me complete three commendable and diversified internships at the most reputed companies in the world - PepsiCo Ltd., Tata Main Hospital - Tata Steel Ltd., and TCG LifeSciences Ltd. I love travelling, reading novels and articles about space (specifically space biology) during my free time. Well, there is a lot left to explore about me and my work! <i class="fa fa-smile-o"></i></p>
+    </div>
+  </div>
+  <p class="w3-xlarge w3-center w3-padding-16">I' m really good at: </p>
+  <p >Laboratory skills: </p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:95%">95%</div>
+  </div>
+  <p >3D Visualization & Construction of Practical Model: </p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:95%">95%</div>
+  </div>
+  <p >Public Speaking: </p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
+  </div>
+  <p >Bioinformatics tools: </p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">85%</div>
+  </div>
+  <p >Programming Languages: </p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:80%">80%</div>
+  </div>
+  <p >Database API & OS Shell: </p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">75%</div>
+  </div>
+
+  <p >Dramatics: </p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:70%">70%</div>
+  </div>
+
+  <h4>Laboratory skills:</h4>
+  <ul>
+  <li>Staining techniques Cultures</li>
+
+    <li>Media preparation DNA and RNA extraction</li>
+    <li>LC-MS, HPLC, TLC, UPLC IR and NMR Spectroscopy, Fluorometer, KASP</li>
+    <li>PCR, qRT-PCR, RFLP, RAPD Cloning, SDS-PAGE</li>
+    <li>DNA Sequence analysis Bioinformatics Primer Design</li>
+    <li>Gene alignment techniques Calorimeter, Polarimeter</li>
+    <li>Microbial assays, SNP assay Titrimetry</li>
+    <li>Western Blotting Southern Blotting</li>
+
+  </ul>
+
+  <h4>Bioinformatics tools: </h4>
+  <ul>
+    <li>BLAST</li>
+    <li>Protein Historian</li>
+    <li>ClustalW</li>
+  </ul>
+  <h4>Programming Languages: </h4>
+  <ul>
+    <li>C</li>
+    <li>C++</li>
+    <li>JAVA</li>
+    <li>Python</li>
+    <li>R</li>
+    <li>MATLAB</li>
+  </ul>
+  <h4>Database API & OS Shell:</h4>
+  <ul>
+    <li>E-Ultilities</li>
+    <li>BLAST</li>
+    <li>PUG</li>
+    <li>Dos</li>
+    <li>Bash</li>
+  </ul>
+  <h4>Languages: </h4>
+  <p >English: </p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:100%">100%</div>
+  </div>
+  <p >Hindi: </p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:95%">95%</div>
+  </div>
+  <p >German (A1, A2, and B1): </p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:60%">60%</div>
+  </div>
+
+</div>
+
+<div class="w3-row w3-center w3-padding-16 w3-white">
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">15+</span><br>
+    Projects Done
+  </div>
+   <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">17+</span><br>
+    Associated Organisations
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">110+</span><br>
+    Events
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">270+</span><br>
+    Meetings
+  </div>
+
+</div>
+</div>
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div style="background-color: rgb(58,0,25);" class="w3-text-white">
+<div class="w3-content w3-container w3-padding-64" id="portfolio" style="background-color: rgb(58,0,25);">
+  <h3 class="w3-center">MY WORK</h3>
+
+
+
+  <p class="w3-center"><em>Here are some of my latest lorem work ipsum tipsum.<br> Click on the images to make them bigger</em></p><br>
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3 w3-display-container">
+      <a href="p1.html" style="text-decoration: none;"><img src="pt1.jpg" style="width:100%"  class="w3-hover-opacity">
+      <div class=" w3-display-bottomleft w3-container w3-display-hover">
+            <p class="w3-tiny w3-opacity-min">Application of  SNP genotyping in utilization and mapping of diploid germplasm in cotton... more</p>
+          </div></a>
+    </div>
+
+    <div class="w3-col m3">
+      <img src="/w3images/p2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="/w3images/p3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="/w3images/p4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3">
+      <img src="/w3images/p5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="/w3images/p6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="/w3images/p7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="/w3images/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
+    </div>
+    <br><br><br>
+
+<div class="w3-center">
+     <h3 >My Resume</h3>
+  <br>
+  <div >
+  <a href="https://drive.google.com/file/d/0B-gLTImAn7mKZUEzTkNqY3J1RFE/view?usp=sharing"><img src="rtest.png" style="width:20%"  class="w3-hover-opacity w3-hide-small w3-hide-medium " alt="Resume"></a>
+  <a href="https://drive.google.com/file/d/0B-gLTImAn7mKZUEzTkNqY3J1RFE/view?usp=sharing"><img src="rtest.png" style="width:50%"  class="w3-hover-opacity w3-hide-large w3-hide-medium " alt="Resume"></a>
+  <a href="https://drive.google.com/file/d/0B-gLTImAn7mKZUEzTkNqY3J1RFE/view?usp=sharing"><img src="rtest.png" style="width:30%"  class="w3-hover-opacity w3-hide-large w3-hide-small " alt="Resume"></a>
+  </div>
+</div>
+<br>
+  </div>
+</div>
+</div>
+
+<div class="w3-row w3-center w3-padding-16 w3-white">
+  <div class="w3-quarter w3-section">
+
+  </div>
+
+</div>
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div style="background-color: rgb(58,0,25);">
+<div class="w3-content w3-container w3-padding-64 w3-text-white" id="contact">
+  <h3 class="w3-center">Appointments here please! <i class="fa fa-smile-o"></i> </h3>
+  <p class="w3-center"><em>Thank you!</em></p>
+
+  <div class="w3-row w3-padding-16 w3-section w3-hide-small">
+    <div class="w3-col m12 w3-container">
+      <!-- Add Google Maps -->
+
+      <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=molika1%40tamu.edu&amp;color=%231B887A&amp;src=en.usa%23holiday%40group.v.calendar.google.com&amp;color=%23125A12&amp;ctz=America%2FChicago" style="border-width:0" width="100%" height="500" frameborder="0" scrolling="no"></iframe>
+    </div>
+  </div>
+
+  <div class="w3-row w3-padding-16 w3-section w3-hide-medium w3-hide-large" style="max-width=100%">
+    <div class="w3-col m12 w3-container">
+      <!-- Add Google Maps -->
+
+      <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=molika1%40tamu.edu&amp;color=%231B887A&amp;src=en.usa%23holiday%40group.v.calendar.google.com&amp;color=%23125A12&amp;ctz=America%2FChicago" style="border-width:0" width="310px" height="500" frameborder="0" scrolling="no"></iframe>
+    </div>
+  </div>
+
+  <div class="w3-row w3-padding-2 w3-section">
+    <div class="w3-col m12 w3-container w3-section">
+      <div class="w3-large w3-margin-bottom">
+        <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
+        <i class="fa fa-map-marker fa-fw  w3-xlarge w3-margin-right"></i> Houston, Texas, US<br>
+        <i class="fa fa-phone fa-fw  w3-xlarge w3-margin-right"></i> Phone: +1 (979)-739-3436 <br>
+        <i class="fa fa-envelope fa-fw  w3-xlarge w3-margin-right"></i> Email: molikasinha@gmail.com / molika1@tamu.edu <br>
+
+      </div>
+
+
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<!-- Footer -->
+<footer class="w3-center w3-padding-32 w3-text-black w3-white w3-hover-black w3-hover-text-white">
+  <a href="#home" class="w3-btn w3-padding w3-light-grey w3-hover-white"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <a href="https://www.linkedin.com/in/molika-sinha-541ba811a/"><i class="fa fa-linkedin w3-hover-text-blue"></i></a>
+    <a href="https://www.facebook.com/molika.sinha"><i class="fa fa-facebook-official w3-hover-text-blue"></i></a>
+    <a href="https://www.instagram.com/molikasinha"><i class="fa fa-instagram w3-hover-text-red"></i></a>
+    <a href="https://www.snapchat.com/add/molika_sinha"> <i class="fa fa-snapchat w3-hover-text-yellow"></i></a>
+    <a href="https://www.twitter.com/sinha_molika"><i class="fa fa-twitter w3-hover-text-blue"></i></a>
+
+  </div>
+  <p>Copyright &copy; Molika Sinha</p>
+</footer>
+<!-- Add Google Maps -->
+<script>
+function myMap()
+{
+  myCenter=new google.maps.LatLng(41.878114, -87.629798);
+  var mapOptions= {
+    center:myCenter,
+    zoom:12, scrollwheel: false, draggable: false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card-2" + " w3-animate-top" + " w3-2017-tawny-port";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card-2 w3-animate-top w3-2017-tawny-port", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+</body>
+</html>
+
